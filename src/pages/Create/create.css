@@ -1,0 +1,102 @@
+.wrapper {
+    background-color: #ECF0F1;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav-bar" "box" "footer";
+}
+
+.box-wrapper {
+    height: 600px;
+    position: relative;
+}
+
+/* === Contact form ===*/
+
+.box {
+    grid-area: box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    /* box-shadow: 0 30px 20px rgba(0,0,0,.2); */
+    box-shadow: 0 3px 60px rgba(57, 73, 76, 0.35);
+}
+
+.box h2 {
+    margin: 0 0 40px;
+    padding: 0;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.box textarea {
+    height: 150px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.box input, .box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+.box textarea {
+    margin-bottom: 20px;
+}
+
+.box input[type="submit"] {
+    border-radius: 10px;
+    font-size: 1.1em;
+    border-bottom: none;
+    cursor: pointer;
+    background: #EE1144;
+    color: #FFF;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.box form div {
+    position: relative;
+}
+
+.box form div label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #999;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box input:focus~label, .box textarea:focus~label, .box input:valid~label, .box textarea:valid~label {
+    top: -12px;
+    left: 0;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* ==== Footer ==== */
+.footer{
+    grid-area: footer;
+    height: 80px;
+    background-color: #ECF0F1;
+  }
+  

@@ -1,0 +1,18 @@
+.questioncontainer {
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px
+}
+.homeback {
+    background-color: #ECF0F1;
+    display: flex;
+}
+
+.hashtagcontainer {
+    padding-left: 100px;
+}

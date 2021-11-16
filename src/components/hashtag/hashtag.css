@@ -1,0 +1,32 @@
+.hashtag {
+    color: blue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hashtag:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.i-group {
+    border-radius: 4px;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.i-row {
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.hashtags {
+    margin: 25px;
+}
+
+h3 {
+    color: black
+}

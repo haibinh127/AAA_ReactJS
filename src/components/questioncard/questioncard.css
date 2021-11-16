@@ -1,0 +1,18 @@
+.buttoncontainer {
+    margin-left: 440px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.like {
+    margin-left: 20px;
+}
+
+.likes {
+    margin-right: 00px;
+}
+
+.questionicon {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

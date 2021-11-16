@@ -1,0 +1,52 @@
+.logo-navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #131619;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.logo-navbar .logo-image {
+    height: 30px;
+    width: 100px;
+    transform: .5;
+}
+
+.form-container {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: #131619;
+}
+
+.form-wrapper {
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 400px;
+    height: 470px;
+    background-color: #FFFFFF;
+    padding: 25px;
+}
+
+.btn-signin {
+    background-color: #EE1144;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-signin:hover {
+    background-color: #DC143C;
+}
+.login-link {
+    color: #DC143C;
+}
+.login-link:hover {
+    color: #DC143C;
+}
