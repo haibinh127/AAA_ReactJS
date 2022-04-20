@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react"
 import './hashtag.css'
 const Hashtag = () => {
-    const [hashtags, setHashtags] = useState(['fashion', 'style', ' cute', 'life', 'picoftheday', 'photography', 'instagram', 'beautiful', 'photooftheday', 'instagood']);
+    const [hashtags, setHashtags] = useState(['football', 'money', ' math', 'tennis', 'moon', 'photography', 'instagram', 'beautiful', 'javascript', 'reactjs']);
 
     return (
         <>

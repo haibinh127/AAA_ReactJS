@@ -36,6 +36,7 @@ function Login() {
                 })
                 .catch((error) => {
                     console.log(error);
+                    alert("Wrong email or password !");
                 })
         } catch (error) {
             console.log(error);
